@@ -4,4 +4,4 @@
 - Inventors
 - Explanation of a DC motor
 - Explanation of a AC motor
-- Applications
+- Examples of different use cases or applications
