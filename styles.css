@@ -8,5 +8,58 @@ body {
     line-height: 1.714;
     font-weight: 500;
   }
-  /*  Image of small electric motor needs to be resized  */
+  #navbar {
+    background-color: #990011FF;
+    color: #FCF6F5FF;
+    overflow: hidden; /* prevents scrollbars from appearing */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 2px solid #FCF6F5FF;
+    
+  }
+  
+  #navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 18px;
+    font-size: 18px;
+    text-decoration: none; /* removes underlines from words in navbar */
+  }
+  
+  #navbar a:hover{
+    background-color: #420D09;
+    color: #FCF6F5FF;
+  }
+  
+  #navbar a.active {
+    background-color: black;
+    color: #FCF6F5FF;
+  }
+  
+  #title {
+    background-color: #990011FF;
+    color: #FCF6F5FF;
+  }
+  
+  #navbar-title {
+    font-size: 18px;
+    overflow: hidden;
+  
+  }
+  
+  #img-two {
+    width: 540px;
+    height: auto;
+    border-radius: 25px;
+    background-position: left top;
+    padding: 20px;
+  
+  }
+  /*    
+        Image sizes need to be adjusted to fit on the page!
+        Change the link text color from blue to #FCF6F5FF.
+        Make it so when you click the hyperlinked text in the "Page reference", it starts at the beginning of said section.
+  */
+    
     
