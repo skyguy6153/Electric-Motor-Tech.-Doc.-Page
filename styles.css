@@ -56,6 +56,14 @@ body {
     padding: 20px;
   
   }
+
+  @media all and (max-width: 500px) {
+    body {
+      background-color: black;
+      color: #FCF6F5FF;
+  
+    }
+  }
   /*    
         Image sizes need to be adjusted to fit on the page!
         Change the link text color from blue to #FCF6F5FF.
